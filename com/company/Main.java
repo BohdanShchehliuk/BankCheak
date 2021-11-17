@@ -9,7 +9,12 @@ public class Main {
                 userLoginPassword.getPassword().equals(enterLoginPassword.getEnterPassword())) {
             System.out.println("Welcome");
         } else {
-            System.out.println("Sorry. Enter is forbiden");
+
+            if (Cheack.cheack()>100) {
+                System.out.println("Welcome");
+            } else {
+                System.out.println("Sorry. Enter is forbiden");
+            }
         }
 
 
