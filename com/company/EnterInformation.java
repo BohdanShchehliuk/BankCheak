@@ -11,7 +11,7 @@ public class EnterInformation {
     private String favoriteColour;
 
     public EnterInformation() {
-        System.out.println("Введіть день народження");
+        System.out.println("Введі ть день народження");
         Scanner input = new Scanner(System.in);
         String birthday = input.nextLine();
         this.birthday = birthday;
