@@ -7,7 +7,7 @@ public class UserInformation {
     private String secretAnsver = "189"; //20% secretAnsver - ВІДПОВІДЬ
     private String email = "vova@gmail.com"; //10%  email - ПОШТА
     private String lastOrderNumber = "1256"; //10%  lastOrderNumber - ОСТАННЄ ЗАМОВЛЕННЯ
-    private String favoriteColour = "red"; //10% favoriteColour - ОЛЮБЛЕНИЙ КОЛІР
+    private String favoriteColour = " red"; //10% favoriteColour - ОЛЮБЛЕНИЙ КОЛІР
 
 
     public String getBirthday() {

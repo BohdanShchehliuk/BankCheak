@@ -4,7 +4,7 @@ public class Cheack {
 
     public static int cheack () {
         int sum =0;
-        System.out.println("You typed wrong login or password. Try to recovery access");
+        System.out.println("You t yped wrong login or password. Try to recovery access");
         UserLoginPassword userLoginPassword = new UserLoginPassword();
         EnterLoginPassword enterLoginPassword = new EnterLoginPassword();
         UserInformation userInformation = new UserInformation();

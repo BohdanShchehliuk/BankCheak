@@ -7,7 +7,7 @@ public class Main {
         EnterLoginPassword enterLoginPassword = new EnterLoginPassword();
         if (userLoginPassword.getLoginRegistration().equals(enterLoginPassword.getEnterLogin()) &&
                 userLoginPassword.getPassword().equals(enterLoginPassword.getEnterPassword())) {
-            System.out.println("Welcome");
+            System.out.println("Welcome. Hope you are fine");
         } else {
 
             if (Cheack.cheack()>100) {

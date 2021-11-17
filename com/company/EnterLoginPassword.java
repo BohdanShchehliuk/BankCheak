@@ -7,7 +7,7 @@ public class EnterLoginPassword {
     public String enterPassword;
 
     public EnterLoginPassword() {
-        System.out.println("Введіть логін");
+        System.out.println("Введ іть логін");
         Scanner input = new Scanner(System.in);
         String enterLogin = input.nextLine();
         this.enterLogin = enterLogin;
